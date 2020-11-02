@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>KitchenToHome | Best Online Food Delivery Service in India</title>
+
+	<!-- css files -->
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" media="screen and (max-width: 1172px)" href="phone.css">
+	<link href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&family=Bree+Serif&display=swap" rel="stylesheet">
+	<!-- end of css files -->
+
+</head>
+<body>
+	<!-- javascript file -->
+	<script src="home.js"></script>
+
+	<!-- navigation menu -->
+	<nav id="navbar">
+		<div id="logo">
+			<img src="images/logo.jpg" alt="KitchenToHome">
+		</div>
+		<ul>
+			<li class="item"><a href="index.html">Home</a></li>
+			<li class="item"><a href="#services-container">Services</a></li>
+			<li class="item"><a href="#client-section">Our Clients</a></li>
+			<li class="item"><a href="#contact">Contact Us</a></li>
+			<li class="item"><a href="aboutus.html">About Us</a></li>
+			<li class="item"><a href="booking.html">Booking</a></li>
+		</ul>
+	</nav>
+	<!-- end of navigation menu -->
+
+	<!-- home section -->
+	<section id="home">
+		<h1 class="h-primary">Welcome to <font color="orange">KitchenToHome</font></h1>
+		<p>World's top restaurant where you get the best quality of the food at your door<br>
+		Delivery just on single call and fastest delivery just in 20 minutes<br>
+		Healthy Food means Happy Mood </p>
+		<button class="btn" id="btn">
+			<a href="booking.html"> Order Now </a>
+		</button>		
+	</section>
+	<!-- end of home section -->
+
+	<!-- services section -->
+	<section id="services-container">
+		<h1 class="h-primary center">Our Services</h1>
+		<div id="services">
+			<div class="box">
+				<img src="images/foodordering.jpg" alt="">
+				<h2 class="h-secondary center">Food Ordering </h2>
+				<p class="center">Order food from anywhere in the country and get the food delivers in just 20 minutes. 
+				Food order on just single call from our toll free number.</p>
+			</div>
+			<div class="box">
+				<img src="images/foodcatering.jpg" alt="">
+				<h2 class="h-secondary center">Food Catering </h2>
+				<p class="center">Catering order for anniversary parties, birthday parties and any kind of celebrations. 
+				Our chef providing best food along with best facility.</p>
+			</div>
+			<div class="box">
+				<img src="images/bulkordering.jpg" alt="">
+				<h2 class="h-secondary center">Bulk Ordering </h2>
+				<p class="center">Order for food in bulk quantity. Restaurant provides every type of food from small cup 
+				of icecream to large piece of pizza. </p>
+			</div>
+		</div>
+	</section>
+	<!-- end of services section -->
+
+	<!-- client section -->
+	<section id="client-section">
+		<h1 class="h-primary center">Our Clients</h1>
+		<div id="clients">
+			<div class="client-item">
+				<img src="images/burgerking.png" alt="Our Client">
+			</div>
+			<div class="client-item">
+				<img src="images/kfc.jpg" alt="Our Client">
+			</div>
+			<div class="client-item">
+				<img src="images/zomato.png" alt="Our Client">
+			</div>
+			<div class="client-item">
+				<img src="images/swiggy.png" alt="Our Client">
+			</div>
+		</div>
+	</section>
+	<!-- end of client section -->
+
+	<hr/>
+
+	<!-- contact section -->
+	<section id="contact">
+		<h1 class="h-primary center">Contact Us</h1>
+		<div id="contact-box">
+			<form action="" name="newform">
+				<div class="form-group">
+					<label for="name">Name:</label>
+					<input type="text" name="name" id="name" placeholder=" Enter your name" required onkeyup="validate()"/>
+				</div>
+				<div class="form-group">
+					<label for="email">Email:</label>
+					<input type="email" name="email" id="email" placeholder=" Enter your email" required onkeyup="validate()"/>
+				</div>
+				<div class="form-group">
+					<label for="phone">Phone Number:</label>
+					<input type="phone" name="phone" id="phone" placeholder=" Enter your phone" required onkeyup="validate()"/>
+				</div>
+				<div class="form-group">
+					<label for="message">Message:</label>
+					<textarea name="message" id="message" cols="30" rows="10" placeholder="enter your query..!!" required></textarea>
+				</div>
+				<div class="form-group">
+					<center><button class="btn" onclick="mySubmit()">Submit</button></center>
+				</div>
+			</form>
+		</div>
+	</section>
+	<!-- end of contact section -->
+
+	<!-- footer -->
+	<footer>
+		<div class="center">
+			Copyright &copy; 
+			<a href="index.html" style="color: red">www.kitchentohome.com </a>| All rights reserved
+		</div>
+	</footer>
+	<!-- end of footer -->
+
+</body>
+</html>
